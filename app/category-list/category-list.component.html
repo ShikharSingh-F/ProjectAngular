@@ -1,0 +1,3 @@
+<app-category *ngFor="let category of categories" [category]="category" [isSelected]="category.id===selectedCategory.id"
+    (selected)="onSelect(category)">
+</app-category>
